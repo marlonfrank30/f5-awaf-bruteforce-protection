@@ -66,7 +66,7 @@ Decision --> Block[Temporary Block]
 Forward --> App
 ```
 
-### Mermaid - Request Processing Pipeline
+### Request Processing Pipeline
 
 ```mermaid
 flowchart TD
@@ -101,7 +101,7 @@ N--No-->I
 N--Yes-->O-->P
 ```
 
-### Mermaid - Session Tracking
+### Session Tracking
 
 ```mermaid
 sequenceDiagram
@@ -116,7 +116,7 @@ BIGIP->>BIGIP: Update Username, Session, Device ID, IP
 BIGIP-->>Client: Allow or Block
 ```
 
-### Mermaid - Decision Tree
+### Decision Tree
 
 ```mermaid
 flowchart TD
@@ -171,7 +171,7 @@ The values shown in the supplied screenshots are examples from the user's AWAF c
 
 A distributed attack can keep each individual source below its local threshold. AWAF can correlate failed-login activity across multiple sources and detect a distributed attack when its configured threshold is reached.
 
-### Mermaid - Distributed Attack
+### Distributed Attack
 
 ```mermaid
 flowchart LR
