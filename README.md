@@ -291,6 +291,9 @@ Tune --> Done[Production]
 ### 6. Login Enforcement
 ![Login Enforcement](images/config-6.png)
 
+### 7. Layered Virtual Server approach irule
+![Layered Virtual Server approach irule](images/config-8.png)
+
 ## Tuning guidance
 
 - Protect the actual authentication endpoint.
