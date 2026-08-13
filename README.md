@@ -47,7 +47,7 @@ For automatic policy building, F5 documents enabling the brute-force violation f
 6. AWAF evaluates configured detection periods and thresholds.
 7. If a threshold is reached, the configured mitigation action is applied.
 
-### Mermaid - Detection Flow
+### Detection Flow
 
 ```mermaid
 flowchart LR
