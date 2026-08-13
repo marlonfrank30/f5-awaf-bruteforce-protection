@@ -313,6 +313,10 @@ Tune --> Done[Production]
 ### 6. Login Enforcement
 ![Login Enforcement](images/config-6.png)
 
+### 7. Login Page Parameters
+![Login Page Parameters](images/config-9.png)
+
+
 ### 7. Layered Virtual Server approach irule
 ![Layered Virtual Server approach irule](images/config-8.png)
 
