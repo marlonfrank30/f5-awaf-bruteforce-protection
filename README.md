@@ -167,6 +167,28 @@ Action  = mitigation configured when the threshold is reached
 
 The values shown in the supplied screenshots are examples from the user's AWAF configuration and are not universal F5 defaults.
 
+## Detection dimensions
+
+- Username
+- Device ID
+- Source IP
+- HTTP Session
+- Distributed attack correlation
+
+## Quick flow
+
+```mermaid
+flowchart LR
+R[Login Request] --> L[Login Page Match]
+L --> C[Authentication Result]
+C -->|Success| A[Allow]
+C -->|Failure| T[Tracking]
+T --> E[Threshold Evaluation]
+E -->|Below Threshold| A
+E -->|Threshold Reached| M[Mitigation]
+M --> X[Alarm / CAPTCHA / Block]
+```
+
 ## Distributed brute force
 
 A distributed attack can keep each individual source below its local threshold. AWAF can correlate failed-login activity across multiple sources and detect a distributed attack when its configured threshold is reached.
