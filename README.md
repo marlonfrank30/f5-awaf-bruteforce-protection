@@ -4,6 +4,7 @@ A practical reference for configuring and understanding brute force protection o
 
 > **Scope:** This repository uses F5 BIG-IP ASM 14.1 documentation and F5 article K18650749 as references. Exact menu names, defaults, and mitigation options can vary by BIG-IP release.
 
+![Overview](images/overview.png)
 ## What is brute force protection?
 
 A brute force attack attempts to discover valid application credentials by repeatedly submitting username/password combinations. AWAF protects configured application login URLs by tracking failed login activity and evaluating the rate and number of failed attempts.
