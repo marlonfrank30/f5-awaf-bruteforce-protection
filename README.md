@@ -2,7 +2,7 @@
 
 A practical reference for configuring and understanding brute force protection on F5 BIG-IP Advanced WAF (AWAF / ASM).
 
-> **Scope:** This repository uses F5 BIG-IP ASM 14.1 documentation and F5 article K18650749 as references. Exact menu names, defaults, and mitigation options can vary by BIG-IP release.
+**Scope:** This repository uses F5 BIG-IP ASM 14.1 documentation and F5 article K18650749 as references. Exact menu names, defaults, and mitigation options can vary by BIG-IP release.
 
 ![Overview](images/overview.png)
 ## What is brute force protection?
