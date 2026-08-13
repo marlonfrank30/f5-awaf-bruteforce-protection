@@ -12,7 +12,7 @@ F5 documents two broad detection models:
 - **Source-based brute force protection** — activity associated with a username, Device ID, or source IP.
 - **Distributed brute force protection** — failed authentication activity accumulated across multiple sources.
 
-AWAF can also identify credential-stuffing activity when the relevant capability is available and configured.
+AWAF can also identify credential-stuffing activity when the relevant capability is available and configured (add-on license required).
 
 ## Why the Login Page matters
 
