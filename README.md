@@ -1,6 +1,6 @@
 # F5 BIG-IP Advanced WAF - Brute Force Protection for BIG-IP Zero Trust Access SSL/VPN portals
 
-A practical reference for configuring and understanding brute force protection on F5 BIG-IP Advanced WAF (AWAF / ASM).
+A practical reference for configuring and understanding brute force protection on F5 BIG-IP Advanced WAF (AWAF).
 
 ![Overview](images/overview.png)
 ## What is brute force protection?
