@@ -2,7 +2,7 @@
 
 ## Core prerequisites
 
-1. BIG-IP Advanced WAF/ASM security policy.
+1. BIG-IP Advanced WAF security policy.
 2. At least one Login Page.
 3. Reliable authentication-success condition.
 4. Brute Force Protection enabled.
